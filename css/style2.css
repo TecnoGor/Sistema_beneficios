@@ -1,0 +1,180 @@
+* {
+	font-family: 'Poppins';
+	font-weight: 100px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url("../images/comunidad.jpeg");
+/*	border-right: 10px black;*/
+	background-size: contain;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.header {
+	position: relative;
+	height: 50px;
+	width: 100%;
+	background: #33f;
+}
+
+.image-container {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.image_full-size {
+	height: 100%;
+	width: 100%;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.side_left {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 100vh;
+	width: 50%;
+	background: rgba(232, 8, 1, .7);
+}
+
+/*.image-container-logo {
+	display: flex;
+	height: 15vh;
+	margin-top: -160px;
+	margin-bottom: 20px;
+	justify-content: center;
+}*/
+
+.sign_form {
+	position: relative;
+	margin-top: -120px;
+	padding: 20px;
+	border: 2px #000 solid;
+	border-radius: 10px;
+	background: rgba(232, 232, 232, .8);
+	text-align: center;
+}
+
+input {
+	height: 30px;
+	width: 30vh;
+	margin: 15px;
+	border-radius: 2px;
+	box-shadow: 0px 5px 10px;
+}
+
+.input_inf {
+	border: none;
+	background: rgba(200, 200, 200, .5);
+/*	border-bottom: 2px solid #119;*/
+}
+
+.input_inf:focus {
+	background: linear-gradient(to top, rgba(5, 5, 40, .4), transparent);
+}
+
+input::placeholder:focus {
+	color: black;
+}
+
+
+
+input[name="snd"] {
+	border: none;
+	position: relative;
+	cursor: pointer;
+	height: 40px;
+	font-size: 20px;
+	background: rgba(0, 0, 0, .2);
+  	box-shadow: inset 0 0 0 0 rgba(232, 8, 1, .5);
+  	-webkit-transition: ease-out 0.4s;
+  	-moz-transition: ease-out 0.4s;
+  	transition: ease-out 0.4s;
+}
+
+input[name="snd"]:hover {
+	color: #eee;
+	box-shadow: inset 0px 0px 0px 50px rgba(232, 8, 1, .5);
+}
+
+.side_right {
+	display: flex;
+	height: 100vh;
+	width: 100%;
+	border-right: 15px rgba(232, 8, 1, .7) solid;
+}
+
+.box_side_right {
+	position: absolute;
+	border-bottom: 15px rgba(232, 8, 1, .7) solid;
+	height: 50px;
+	width: 320px;
+	bottom: 90px;
+	right: 0;
+}
+
+@keyframes reporte {
+	0% {
+		width: 50%;
+	}
+
+	50%{
+		width: 25%;
+	}
+
+	100%{
+		width: 0%;
+	}
+}
+
+/*.auth_conection {
+	display: flex;
+	position: relative;
+	padding: 0;
+	height: 50px;
+	width: 50%;
+	background: rgba(200, 200, 200, .7);
+	border-radius: 5px;
+	margin: 100px auto;
+	overflow: hidden;
+	text-align: center;
+	justify-content: center;
+	animation: reporte 2s linear forwards;
+}*/
+
+.footer {
+	position: fixed;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+	height: 10vh;
+	width: 100%;
+	background: rgba(232, 232, 232);
+	text-align: center;
+}
+
+/* ESTILO DEL SISTEMA A PARTIR DE AQUI */
+
+.main {
+/*	position: relative;*/
+	width: 30%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	border: 2px black solid;
+}
+
