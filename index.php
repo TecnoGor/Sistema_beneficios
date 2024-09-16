@@ -9,6 +9,7 @@
 
 ?>
 
+<!-- Prueba de comentario para git -->
 <!DOCTYPE html>
 <html>
 <head>
